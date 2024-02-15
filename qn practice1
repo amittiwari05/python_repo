@@ -1,0 +1,18 @@
+#company will give bonus based on the following criteria 
+
+#time spent in company                    bonus
+# greater then 10 years                    10%
+# more than 6 and less than 10 years        8%
+# less than 6 years                         5%
+
+# ask the salary and time from the user
+# print the net bonus amount accordingly
+
+salary = int(input("Enter your salary:"))
+time = int(input("Enter your time spent:"))
+if time >= 10:
+    print(salary+(10/100)*salary)
+elif time >=6 and time <10 :
+    print(salary + (8/100)*salary)
+elif time < 6:
+  print(salary +(5/100)*salary)
