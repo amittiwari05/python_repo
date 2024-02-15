@@ -1,0 +1,7 @@
+a = int(input("Enter the total number of leactures:"))
+b = int(input("Entered the number of leactures you attended:"))
+
+if (b/a)*100 >75:
+    print("you are eligeble for semester examination")
+else:
+    print("you are not eligible for semester examination")
